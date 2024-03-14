@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
 #Submission Comment
 #For exceeding the requirements I added multiple features including:
-#Defining the global variables EARTH_ACCELERATION_OF_GRAVITY, WATER_DENSITY and WATER_DYNAMIC_VISCOSITY \ 
-#Then using the variables in my calculations.
+#Defined the global variables EARTH_ACCELERATION_OF_GRAVITY, WATER_DENSITY and WATER_DYNAMIC_VISCOSITY \ 
+#Then used those variables in my calculations.
 #I added a function to turn kPa into psi and displayed both kPa and psi in the main function.
 #I created a test function for kpa_to_psi that tests and passes a wide range of scenarios.
