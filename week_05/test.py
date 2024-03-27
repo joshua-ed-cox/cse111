@@ -1,12 +1,10 @@
-string = list("rat")
-string2 = list("car")
+string1 = "anagram"
+string2 = "naagram"
 
-string.sort()
-string2.sort()
+storted_string_1 = sorted(list(string1))
+storted_string_2 = sorted(list(string2))
 
-if string != string2:
-    print("This is not an anagram")
+if storted_string_1 == storted_string_2:
+    print("These are anagrams")
 else:
-    print("This is an anagram")
-
-# Starting week5 
+    print("These are not anagrams")

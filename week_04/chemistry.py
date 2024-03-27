@@ -1,5 +1,7 @@
 from formula import parse_formula
 
+print("Hello")
+
 # Variable Initialization
 # Indexes for inner lists in the periodic table
 NAME_INDEX = 0
