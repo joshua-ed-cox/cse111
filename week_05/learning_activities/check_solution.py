@@ -8,7 +8,7 @@ of provinces.txt into a list and then modifies the list.
 def main():
     # Read the contents of a text file named
     # provinces.txt into a list named provinces_list.
-    provinces_list = read_list("provinces.txt")
+    provinces_list = read_list("C:\Code\cse111\week_05\learning_activities\provinces.txt")
 
     # As a debugging aid, print the entire list.
     print(provinces_list)

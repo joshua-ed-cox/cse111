@@ -1,0 +1,78 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+Budgeting Calculator. 
+
+
+2. What real-world problem will your program address or help to solve?
+I want to write a program that will calculate the money the I need to put aside for a variety of expenses.
+For example I would put in the amount of money that I earn from my pay check and it would split it based on 
+different categories that I would define. Some would be constant like the price of rent while others would
+be percent based like tithing. If I am able to figure out how I would like to have these values recorded onto
+a txt file that I can modify. This would allow me to keep track of how much I have saved up in each category 
+then stop contributing to it once it reaches a certrain threshold (e.g. 10% into savings up to $5000). Lastly
+I would like to have the program ask how much I haved spent in each category and make changes to that txt file
+(If I can get the txt file to work). 
+
+
+3. What will you learn from developing this program?
+For this program I will learn more about using files and how to modify them. I'll get more practice using pytest,
+making test functions and probably debugging. I'll solve logic problems like seprating my tasks into different functions
+and figuring out how to build them. 
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+The modules that I know I will use are math, pytest and my budgeting_calculator.py (for testing).
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+main(): Starts the program by asking the user for the check amount then calls the other 
+functions to calculate, edit and display information to the user.
+
+calculate_expenses(income, categories): Calculates the amount of money to 
+be allocated to each expense category based on the total income and the predefined categories. 
+
+read_categories_from_file(file_path): Reads the predefined expense categories
+from a text file and returns them as a list (maybe dict) for calculations.
+
+track_spending(categories, file_path): Allows the user to input their spending
+in each category and updates the amounts accordingly in the text file.
+
+
+6. List the names of the test functions you will write.
+(I'm not sure if I'll be able to figure out how to make test functions reading from files
+so I may need to have another function that doesn't read from a file for testing.)
+
+test_calculate_expenses(): Would check if the calculate_expenses() 
+function correctly calculates the amounts to be allocated to each category based on a given 
+income and predefined categories.
+
+test_read_categories_from_file(): Would check if the read_categories_from_file() 
+function correctly reads the expense categories from the specified text file.
+
+test_track_spending(): Would check if the track_spending() function correctly 
+updates the amounts in the text file after user input for spending in each category.
+
