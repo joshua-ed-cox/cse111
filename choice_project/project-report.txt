@@ -1,0 +1,39 @@
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2024-6-04      4        Worked on my outline and started my main functions writing what it would call and how I wanted the 
+			            flow of my document to be. Switched from using from using a txt file to csv file.
+
+2024-9-04      8        Spent a lot of time looking at documentation and trying to figure out how to best write my logic.
+                        Learned about dict reader which allows me to take from csv files and make dictionaries as well
+                        take dictinaries and format them into csv (using field names for example). Also got to learn about 
+                        amount the enumerate function and compoundstatements.
+
+2024-10-04	    8	    Test functions D:	
+                        Why did I make my functions so complicated. I managed to get only one of my functions to work.
+                        Spent a couple hours trying to firgure out what I was even testing, how to use sample inputs, write to 
+                        a test csv file (does't work). Ran into OS error asking me to use py -s (couldn't fix it)
+                        struggled with pytest.fixture, inputs and much more. I did try really hard to get working test function though.
+
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.

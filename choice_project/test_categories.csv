@@ -1,0 +1,4 @@
+category,percent,current_amount,max_amount
+Rent,0.2,500,2000
+Groceries,0.1,100,500
+Utilities,0.15,200,1000
