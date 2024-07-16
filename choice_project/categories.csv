@@ -1,9 +1,9 @@
 category,percent,current_amount,max_amount
-Rent,0.2,500,5000
-Groceries,0.1,100,1000
-Utilities,0.15,200,2000
-Transportation,0.1,150,800
-Entertainment,0.05,50,300
-Savings,0.2,1000,5000
-Emergency Fund,0.1,0,2500
-Tithing,0.1,0,1000
+Rent,0.2,875.0,5000.0
+Groceries,0.1,830.0,1000.0
+Utilities,0.15,1095.0,2000.0
+Transportation,0.1,500.01,800.0
+Entertainment,0.05,300.0,300.0
+Savings,0.2,2458.0,5000.0
+Emergency Fund,0.1,725.0,2500.0
+Tithing,0.1,500.0,1000.0
